@@ -1,0 +1,24 @@
+{
+	"name": "garage",
+	"version": "0.1.0-SNAPSHOT",
+	"description": "garage application",
+	"private": true,
+	"main": "app.js",
+	"directories": {
+		"test": "test"
+	},
+	"scripts": {
+		"test": "./node_modules/.bin/mocha"
+	},
+	"license": "ISC",
+	"dependencies": {
+		"express": "*",
+		"mysql": "*"
+	},
+	"devDependencies": {
+		"chai": "*",
+		"mocha": "*",
+		"luxon": "*",
+		"request": "*"
+	}
+}
